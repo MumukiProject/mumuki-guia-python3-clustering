@@ -1,4 +1,4 @@
-Para tener una idea más intuitiva del comportamiento de los datos podemos graficar la distribución de frecuencias de las distintas variables que nos permitirá, por ejemplo,  saber si las observaciones son únicas o se repiten. Para ello utilizaremos la biblioteca `seaborn` 🐚, que al igual que `pandas`, nos permite hacer gráficos….
+Para tener una idea más intuitiva del comportamiento de los datos podemos graficar la distribución de frecuencias de las distintas variables que nos permitirá, por ejemplo,  saber si las observaciones son únicas o se repiten. Para ello utilizaremos la biblioteca `seaborn` 🐚, que al igual que `pandas`, nos permite hacer gráficos...
 
 ```python
 import seaborn as sns
