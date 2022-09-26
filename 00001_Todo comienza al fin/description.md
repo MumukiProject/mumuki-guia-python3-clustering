@@ -8,8 +8,8 @@ import sklearn
 Si al correr estas líneas no se produce ningún `ModuleNotFoundError`, ¡entonces ya estás en condiciones de empezar! 🏁 Y si no, ¡a no desesperar! Ejecutá lo siguiente en una nueva celda de tu cuaderno:
 
 ```bash
- !pip install seaborn
- !pip install sklearn
+!pip install seaborn
+!pip install sklearn
 ```
 
 ¡Y listo! 🎉
