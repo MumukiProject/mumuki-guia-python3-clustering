@@ -8,7 +8,6 @@ language: python3
 id_format: "%05d"
 order:
 - 2
-- 3
 - 4
 - 5
 - 6
