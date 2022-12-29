@@ -7,6 +7,7 @@ teacher_info: ''
 language: python3
 id_format: "%05d"
 order:
+- 17
 - 4
 - 5
 - 6
@@ -20,5 +21,4 @@ order:
 - 14
 - 15
 - 16
-- 17
 private: false
