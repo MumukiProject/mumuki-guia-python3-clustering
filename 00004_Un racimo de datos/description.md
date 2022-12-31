@@ -2,4 +2,4 @@ Un ejemplo de aprendizaje **no supervisado**, y en que nos centraremos en este r
 
 :mag_right: Los métodos de clustering son _exploratorios_, dado que no nos darán respuestas taxativas, sino que agruparán nuestros datos según similitud para simplificar su análisis posterior. 
 
-> Para pensar 🤔: ¿Qué tipo de simplificaciones permite el agrupamiento de datos?
+> Para pensar 🤔: ¿Qué tipo de simplificaciones podríamos hacer gracias al agrupamiento de datos? ¿Por qué nos serían útiles?
