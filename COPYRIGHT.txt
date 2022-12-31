@@ -1,4 +1,4 @@
-Copyright Franco Leonardo Bulgarelli, Ana Velez Rueda and contributors
+Copyright Ana Velez Rueda, Franco Leonardo Bulgarelli and contributors
 
 This content consists of voluntary contributions made by many
 individuals. For exact contribution history, see its revision history
