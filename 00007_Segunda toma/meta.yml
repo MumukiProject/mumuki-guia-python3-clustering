@@ -16,15 +16,15 @@ choices:
   value: "`sepal_width` concentra sus valores en torno a su mediana"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`sepal_width` es la única variable que no parece sus valores concentrados
-    en torno a un único punto"
+  value: "`sepal_width` es la única variable que no concentra sus valores en torno
+    a un único punto"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`petal_length` es la única variable que no parece sus valores concentrados
-    en torno a un único punto"
+  value: "`petal_length` es la única variable que no concentra sus valores en torno
+    a un único punto"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`petal_width` y `petal_length` son dos variables que no parecen sus valores
-    concentrados en torno a un único punto"
+  value: "`petal_width` y `petal_length` son dos variables que no concentran sus valores
+    en torno a un único punto"
   checked: true
 name: Segunda toma
