@@ -12,5 +12,5 @@ Por otro lado, ejemplos de clasificación son saber si un correo electrónico es
 
 Pero en ciertas ocasiones debemos trabajar con datos para los que no contamos con una cantidad o etiqueta. En estos casos, deberemos entrenar a nuestros algoritmos de aprendizaje automático **sin supervisión**. 
 
-> ¿Aprender sin supervisión? ¿Cómo es eso posible? ¿Se te ocurre algún aspecto que un algoritmo de aprendizaje automático podría identificar sin supervisión?
+> 🤔 ¿Aprender sin supervisión? ¿Cómo es eso posible? ¿Se te ocurre algún aspecto que un algoritmo de aprendizaje automático podría identificar sin supervisión?
 
