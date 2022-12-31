@@ -1,0 +1,1 @@
+¡Bien! Como vemos, este loto tiene información de los [pétalos](https://es.wikipedia.org/wiki/P%C3%A9talo) y [sépalos](https://es.wikipedia.org/wiki/S%C3%A9palo) de cada flor observada, y **no hay ningún faltante**.  ⚠️ Esto último es muy importante, dado que en general, cuando trabajemos con algoritmos de aprendizaje automático, los mismos nos aceptarán valores `nan`.
