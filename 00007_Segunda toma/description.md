@@ -1,5 +1,3 @@
-¡Miremos ahora nuestros datos con mayor profundidad! 
+🎬 Pero con conocer la distribución de una única variable no hacemos mucho.¡Intentemos entender ahora la distribución de todas las columnas de nuestra tabla `iris`! 
 
-> Graficá la distribución de frecuencias de la variable `petal.length` y luego de las demás variables.   
-> 
-> ¿Qué diferencias notás respecto del observado para la variable `sepal.length`? ¿Qué información pudiste obtener de observar las distribuciones de las distintas variables?  ¿Cuántos tipos de plantas crees que existen?
+> Graficá la distribución de frecuencias de todas las demás variables y compararlas. ¿Qué podés concluir?
