@@ -12,7 +12,7 @@ iris.corr("spearman")
 sns.heatmap(iris.corr("spearman").abs())
 ``` 
 
-Pero otra gran herramienta para descubrir correlaciones entre variables es usar los `pairplots`, que producen un gráfico de dispersión por cada par de variables numéricas:
+Pero otra gran herramienta para descubrir correlaciones entre variables es usar los `pairplots`, que producen un gráfico de dispersión por cada par de variables numéricas :open_mouth::
 
 ```python
 sns.pairplot(iris)
