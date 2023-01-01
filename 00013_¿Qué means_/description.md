@@ -37,7 +37,7 @@ Luego, podremos consultar cuál es el cluster encontrado para cada observación.
 ```python
 kmeans.labels_
 ```
-... y los centroides:
+...y los centroides:
 
 ```python
 kmeans.cluster_centers_
