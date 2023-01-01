@@ -17,12 +17,33 @@ Por ejemplo, si queremos calcular la distancia euclídea entre dos puntos sobre 
 <code>distancia<sup>2</sup> = (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code>
 </pre>
 
+Como esta definición es tan útil, la biblioteca `scipy` ya cuenta con ella (en la forma de la función `cdist`)...
 
-from scipy.spatial import distance
+```python
+from scipy.spatial.distance import cdist
+```
 
-puntos = [(1.05, 100), (1.06, 200), (1.08, 500), (1.06, 300)]
+... y nos permite ponerla a prueba: 
 
-pd.DataFrame(distance.cdist(puntos, puntos, 'euclidean'))
+```python
+# cdist devuelve una matriz de comparaciones entre los puntos del primer argumento
+# y los del segundo argumento, pero en este caso sólo nos interesa su primer y único valor
+# de ahí que usemos [0][0]
+ム cdist([(3, 4)], [(4, 5)], 'euclidean')[0][0]
+1.4142135623730951 # porque 1.4142135623730951² = (3 - 4)² + (4 - 5)²
+```
 
-Pero, ¿puede haber algún problema con esta definición? ¿Qué pasará si los valores de `x` e `y` están expresados en escalas muy diferentes? Por ejemplo
+Pero, ¿puede haber algún problema con esta definición? 
+
+> ¿Qué pasará si los valores de `x` e `y` están expresados en escalas muy diferentes? Por ejemplo, ¿qué sucederá si todos nuestros puntos fueran similares a `(1.05, 200)`, `(1.06, 100)`, `(1.08, 500)`, `(1.06, 300)`, etc?
+> 
+> Para averiguarlo, probá calcular las distancias entre todos ellos...
+>
+> ```python
+> puntos = [(1.05, 200), (1.06, 100), (1.08, 500), (1.06, 300)]
+> pd.DataFrame(cdist(puntos, puntos, 'euclidean'))
+> ```
+> ... y estudiá los resultados. 
+
+
 
