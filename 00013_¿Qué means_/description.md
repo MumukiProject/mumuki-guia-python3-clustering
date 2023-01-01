@@ -14,7 +14,7 @@ K-means (o _k-medias_, en español) se trata de un método que agrupa las observ
 
 <a href="https://commons.wikimedia.org/wiki/File:K-means_convergence.gif" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/K-means_convergence.gif" alt="Convergencia de KMeans, cortesía de Wikipedia" width="250px" height="auto"></a>
 
-Si definimos, arbitrariamente, que vamos a buscar 3 grupos ...
+Por ejemplo, si definimos, arbitrariamente, que vamos a buscar 3 grupos ...
 
 ```python
 k = 3
