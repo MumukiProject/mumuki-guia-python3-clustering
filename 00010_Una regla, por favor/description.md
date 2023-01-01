@@ -11,7 +11,6 @@ Una de ellas consiste en asumir que los datos son puntos en el espacio, por lo q
 <code>c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></code>
 </pre>
 
-
 Por ejemplo, si queremos calcular la distancia euclídea entre dos puntos sobre un plano, <code>(x<sub>1</sub>, y<sub>1</sub>)</code> y <code>(x<sub>2</sub>, y<sub>2</sub>)</code>, podemos basarnos en este teorema, así:
 
 <pre>
