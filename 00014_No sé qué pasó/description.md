@@ -1,6 +1,6 @@
 Quizás los resultados anteriores no sean tan evidentes como esperábamos :confused:. 
 
-Para entenderlos mejor resulta en general más útil graficar la distribución de puntos de los pares de variables, pintando cada punto según el color correspondiente al etiquetado. Por ejemplo, así podemos graficar `petal_length` vs `petal_width` :sparkles::
+Para entenderlos mejor resulta en general más útil graficar la distribución de puntos de los pares de variables, pintando cada punto según el color correspondiente al etiquetado :label:. Por ejemplo, así podemos graficar `petal_length` vs `petal_width` :sparkles::
 
 ```python
 sns.scatterplot(
