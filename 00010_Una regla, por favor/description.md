@@ -1,4 +1,4 @@
-Como habrás observado, la clasificación de los datos es subjetiva, porque depende de cómo midamos la similitud entre las observaciones. Y como vimos, ¡existen muchas formas de hacerlo! 
+Como habrás probablemente concluido, la clasificación de los datos es subjetiva, porque depende de cómo midamos la similitud entre las observaciones. ¡Y existen muchas formas de hacerlo! 
 
 Una de ellas consiste en asumir que los datos son puntos en el espacio, por lo que si se define la distancia entre los puntos y se mide la separación entre dos registros, podrá obtenerse la similitud entre estos. 
 
