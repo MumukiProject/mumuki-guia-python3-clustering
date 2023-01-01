@@ -6,7 +6,7 @@ El escalado puede ser resuelto muy fácilmente usando el `StandardScaler`, del m
 
 ```python
 scaler = StandardScaler()
-iris_escaleado = scaler.fit_transform(iris)
+iris_escalado = scaler.fit_transform(iris)
 ```
 
 > Ejecutá este código en tu cuaderno. ¿Qué hizo? ¿Cómo quedaron los datos?
