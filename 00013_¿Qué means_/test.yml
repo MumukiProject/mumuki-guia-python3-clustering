@@ -4,10 +4,10 @@
       equal: 47
 - name: 'Cantidad de miembros del cluster 1'
   keys:
-    c0:
+    c1:
       equal: 50
 - name: 'Cantidad de miembros del cluster 2'
   keys:
-    c0:
+    c2:
       equal: 53
                   
