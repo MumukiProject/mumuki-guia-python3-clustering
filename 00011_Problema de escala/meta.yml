@@ -16,7 +16,7 @@ choices:
   value: Escaló todos los valores entre `-1` y `1`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Escaló `sepal_width` entre aproximadamente `-3` y `3`
+  value: Escaló  sólo `sepal_width` entre aproximadamente `-3` y `3`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Escaló todos los valores entre aproximadamente `-3` y `3`
