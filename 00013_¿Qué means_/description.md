@@ -30,4 +30,15 @@ kmeans = KMeans(
 kmeans.fit(iris_escalado)
 ```
 
+Luego, podremos consultar cuáles son los clusters encontrados...
+
+```python
+kmeans.labels_
+```
+... y los centroides:
+
+```python
+kmeans.cluster_centers_
+```
+
 > Ejecutá el código anterior. ¿Cuántos miembros encuentra de cada grupo?
