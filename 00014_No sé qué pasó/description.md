@@ -1,12 +1,20 @@
-Para entender mejor los resultados obtenidos grafiquemos la distribución de puntos, pintando cada punto según el color correspondiente al etiquetado:
+Quizás los resultados anteriores no sean tan evidentes como esperábamos :confused:. 
 
+Para entender mejor los resultados obtenidos resulta en general más útil graficar la distribución de puntos de los pares de variables, pintando cada punto según el color correspondiente al etiquetado. Por ejemplo, así podemos graficar `petal_length` vs `petal_width` :sparkles::
 
 ```python
-import seaborn as sns
-colores = ["red", "green", "blue"]
-g = sns.scatterplot(x = iris_escaleado[:,2], y = iris_escaleado[:, 3], hue = kmeans.labels_, palette = colores, alpha = 0.5)
-g = sns.scatterplot(x = kmeans.cluster_centers_[:,2], y = kmeans.cluster_centers_[:,3], zorder = 10, palette = colores, hue = [0, 1, 2], legend = False, marker=6, s=200)
+sns.scatterplot(
+  data = iris_etiquetado,
+  x = "petal_length", 
+  y = "petal_width", 
+  hue = "cluster", 
+  palette = "tab10", # más información sobre colores, acá: https://seaborn.pindice_2data.org/tutorial/color_palettes.html 
+  alpha = 0.5
+)
 ```
 
-> Para pensar 🤔: ¿Es bueno o malo este resultado? ¿Cómo podríamos evaluar el resultado?
->
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-clustering/master/assets/petal_vs_petal_1672615508851.png" alt="petal_vs_petal_1672615508851.png" width="auto" height="auto">
+
+
+> Pero para entender realmente al modelo, vamos a necesitar graficar cada par de variables. ¿Te animás a intentarlo? ¿Qué conclusiones podés sacar?
+
