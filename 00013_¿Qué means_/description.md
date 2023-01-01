@@ -43,4 +43,4 @@ kmeans.labels_
 kmeans.cluster_centers_
 ```
 
-> Ejecutá el código anterior. ¿Cuántos miembros encuentra de cada grupo?
+> ¡Tu turno! Ejecutá el código anterior en tu cuaderno y respondé: ¿cuántos miembros encuentra de cada grupo?
