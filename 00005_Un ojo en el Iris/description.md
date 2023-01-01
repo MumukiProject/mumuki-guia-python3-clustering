@@ -6,7 +6,8 @@ Para empezar, vamos a importar y configurar las bibliotecas `scikit-learn`, `pan
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import scipy
+
+from scipy.spatial.distance import cdist
 
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler

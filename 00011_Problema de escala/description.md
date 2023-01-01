@@ -5,8 +5,6 @@ Como vimos, es necesario asegurarnos que los datos estén expresados en _dimensi
 El escalado puede ser resuelto muy fácilmente usando el `StandardScaler`, del módulo `scikitlearn` :tada::
 
 ```python
-from sklearn.preprocessing import StandardScaler
-
 scaler = StandardScaler()
 iris_escaleado = scaler.fit_transform(iris)
 ```

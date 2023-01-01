@@ -17,13 +17,7 @@ Por ejemplo, si queremos calcular la distancia euclídea entre dos puntos sobre 
 <code>distancia<sup>2</sup> = (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code>
 </pre>
 
-Como esta definición es tan útil, la biblioteca `scipy` ya cuenta con ella (en la forma de la función `cdist`)...
-
-```python
-from scipy.spatial.distance import cdist
-```
-
-... y nos permite ponerla a prueba: 
+Como esta definición es tan útil, la biblioteca `scipy` ya cuenta con ella (en la forma de la función `cdist`): 
 
 ```python
 # cdist devuelve una matriz de comparaciones entre los puntos del primer argumento
