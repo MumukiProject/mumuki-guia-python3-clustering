@@ -1,6 +1,6 @@
 ¿Qué cosa? 🤌 ¡No, no, estamos hablando de _K-means_!  :sweat_smile: 
 
-K-means (o _k-medias_, en español) se trata de un método que agrupa las observaciones en los _mejores_ K grupos distintos, es decir, los K _clusters_ con la menor varianza interna (_intra-cluster variation_) posible. En otras palabras, se reparten las observaciones en K clusters de forma que la suma de las varianzas internas de todos ellos sea lo menor posible. 
+K-means (o _k-medias_, en español) se trata de un método que agrupa las observaciones en los _mejores_ K grupos distintos, es decir, los K _clusters_ con la menor varianza interna (_intra-cluster variation_) posible. En otras palabras, se reparten las observaciones en K clusters de forma que la suma de las varianzas internas de todos ellos sea la menor posible. 
 
 👣 Este método repite una serie de pasos...
 
