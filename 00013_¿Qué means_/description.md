@@ -32,7 +32,7 @@ kmeans = KMeans(
 kmeans.fit(iris_escalado)
 ```
 
-Luego, podremos consultar cuáles son los clusters encontrados...
+Luego, podremos consultar cuál es el cluster encontrado para cada observación...
 
 ```python
 kmeans.labels_
