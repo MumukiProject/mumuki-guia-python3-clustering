@@ -14,7 +14,15 @@ Una de ellas consiste en asumir que los datos son puntos en el espacio, por lo q
 Por ejemplo, si queremos calcular la distancia euclídea entre dos puntos sobre un plano, <code>(x<sub>1</sub>, y<sub>1</sub>)</code> y <code>(x<sub>2</sub>, y<sub>2</sub>)</code>, podemos basarnos en este teorema, así:
 
 <pre>
-<code> distancia<sup>2</sup> = (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code>
+<code>distancia<sup>2</sup> = (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code>
 </pre>
 
+
+from scipy.spatial import distance
+
+puntos = [(1.05, 100), (1.06, 200), (1.08, 500), (1.06, 300)]
+
+pd.DataFrame(distance.cdist(puntos, puntos, 'euclidean'))
+
+Pero, ¿puede haber algún problema con esta definición? ¿Qué pasará si los valores de `x` e `y` están expresados en escalas muy diferentes? Por ejemplo
 

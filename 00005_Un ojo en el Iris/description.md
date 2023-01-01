@@ -1,11 +1,12 @@
 Para entender cómo funciona el clustering, vamos a recurrir a otro ejemplo bien conocido,  [el dataset Iris](https://en.wikipedia.org/wiki/Iris_flower_data_set), generado por en 1936 📅 por Ronald Fischer, que consiste en un conjunto de observaciones realizadas sobre las característica de distintas especies de plantas con flores  🌼.
 
-Para empezar, vamos a importar y configurar las bibliotecas `scikit-learn`, `pandas` y `seaborn`, como lo hemos hecho previamente: 
+Para empezar, vamos a importar y configurar las bibliotecas `scikit-learn`, `pandas`, `scipy` y `seaborn`, como lo hemos hecho previamente: 
 
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import scipy
 
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler

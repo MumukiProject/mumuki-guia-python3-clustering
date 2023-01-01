@@ -1,3 +1,5 @@
+
+
 Ya identificamos algunos problemas a la hora de clasificar los datos, pero para que las comparaciones que hagamos sean completamente válidas, resulta de suma importancia hacerles un tratamiento extra 💆. 
 
 Uno de estos tratamientos es el _escalado de los datos_. Este procedimiento nos permite asegurarnos de que aún cuando algunas variables toman valores más grandes no se usarán como predictor principal a la hora de clasificar.
