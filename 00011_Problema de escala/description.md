@@ -9,3 +9,15 @@ Imaginemos que tenemos que analizar la trayectoria profesional de dos personas, 
 Es por ello que resulta necesario escalar los datos. La escala es importante para poder especificar que una modificación en una cantidad no es igual a otra modificación en otra. En pocas palabras, escalar los datos le da a todas las características la misma importancia para que ninguna esté dominada por otra. 
 
 Además, resulta necesario antes de comenzar a clasificar nuestros datos es la normalización. Esta implica transformar o convertir el conjunto de datos en una distribución normal, de forma que todos datos tenga una varianza del mismo orden. De este modo, cada dato nos dará una idea de a cuántos desvíos de la media está ese punto.
+
+Estas operaciones pueden hacerse muy fácilmente con la clase `StandardScaler`, del módulo `scikitlearn`:
+
+```python
+from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+iris_escaleado = scaler.fit_transform(iris)
+```
+
+> Ejecutá este código en tu cuaderno. 
+

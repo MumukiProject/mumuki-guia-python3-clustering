@@ -1,1 +1,0 @@
-¡Excelente! 👏 Ahora que hemos normalizado y escalado nuestros datos ya podemos finalmente utilizar un método para agrupar nuestros datos. ¡Acompañanos!
