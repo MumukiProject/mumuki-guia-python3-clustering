@@ -13,6 +13,8 @@ Como mencionamos en la lección anterior, esto se puede comprobar de forma más 
 ```python
 from scipy import stats
 
+# Nota: a las distribuciones normales también se las conoce como paramétricas.
+# De igual forma, a las que no lo son se las conoce como no paramétricas
 def es_no_parametrica(columna):
   return stats.shapiro(iris[columna]).pvalue < 0.05
 ```
