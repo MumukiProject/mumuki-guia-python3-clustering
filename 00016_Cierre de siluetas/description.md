@@ -11,45 +11,16 @@ silhouette_avg = silhouette_score(iris_escaleado, kmeans.labels_)
 sample_silhouette_values = silhouette_samples(iris_escaleado, kmeans.labels_)
 ```
 
-Para graficarlo, vamos a escribir la siguiente función:
-
-```python
-import matplotlib.pyplot as plt 
-import matplotlib.cm as cm 
-import numpy as np
-
-def graficar_silhouette(k, labels, sample_silhouette_values, silhouette_avg):
-  fig, ax1 = plt.subplots(1, 1)
-  y_lower = 10
-  for i in range(k):
-      ith_cluster_silhouette_values = \
-          sample_silhouette_values[labels == i]
-
-      ith_cluster_silhouette_values.sort()
-
-      size_cluster_i = ith_cluster_silhouette_values.shape[0]
-      y_upper = y_lower + size_cluster_i
-
-      color = cm.nipy_spectral(float(i) / k)
-      ax1.fill_betweenx(np.arange(y_lower, y_upper),
-                        0, ith_cluster_silhouette_values,
-                        facecolor=color, edgecolor=color, alpha=0.7)
-      ax1.text(-0.05, y_lower + 0.5 * size_cluster_i, str(i))
-      y_lower = y_upper + 10
-
-  ax1.set_title("Plot del silhouette de cada cluster")
-  ax1.set_xlabel("Coeficiente de silhouette")
-  ax1.set_ylabel("Etiqueta del cluster")
-  ax1.axvline(x=silhouette_avg, color="red", linestyle="--")
-  ax1.set_yticks([]) 
 ```
+from yellowbrick.cluster import SilhouetteVisualizer
 
-Ahora sí podemos visualizar el gráfico haciendo:
-
-```python
-graficar_silhouette(k, kmeans.labels_, sample_silhouette_values, silhouette_avg)
+fig, ax = plt.subplots(2, 2, figsize=(15,8))
+for i in [2, 3, 4, 5]:
+  km = KMeans(n_clusters=i, init='k-means++', n_init=10, max_iter=100, random_state=42)
+  q, mod = divmod(i, 2)
+  visualizer = SilhouetteVisualizer(km, colors='yellowbrick', ax=ax[q-1][mod])
+  visualizer.fit(iris_escalado)  
 ```
-
 > Calculá la silhouette para distintos valores de `k`, desde 2 a 10, y almacenalos en un `DataFrame`. Luego realizá un gráfico de inercia vs k, usando el método `pairplot` de seaborn, ¿Cuál es el mejor valor de k según este criterio?
 >
 
