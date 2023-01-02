@@ -38,7 +38,7 @@ visualizer.fit(iris_escalado)
 
 :eyes: En este gráfico podemos observar que: 
  
- 1. Ninguno de los clusters tiene a la totalidad de sus miembros debajo del promedio (linea roja punteada);
+ 1. Ninguno de los clusters tiene a la totalidad de sus miembros debajo del promedio (línea roja punteada);
  2. Sólo el tercer cluster tiene algunos (pocos) miembros por debajo de `0`
 
 > ¡Terminemos nuestro trabajo y terminemos de definir si nos quedamos con `3` o `5` como valor de `k`! 
