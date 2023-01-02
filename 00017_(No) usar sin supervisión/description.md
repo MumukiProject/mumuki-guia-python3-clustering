@@ -10,7 +10,7 @@ Ejemplos de regresión son los dos casos que trabajamos anteriormente: predecir 
 
 Por otro lado, ejemplos de clasificación son saber si un correo electrónico es _spam_ o no :envelope:, o identificar a partir de una imágen de una planta, cuál es su especie :sunflower:.  
 
-Pero en ciertas ocasiones debemos trabajar con datos para los que no contamos con una cantidad o etiqueta. En estos casos, deberemos entrenar a nuestros algoritmos de aprendizaje automático **sin supervisión**, que nos permitirán obtenerobtener información, sin conocer previamente cuál será la salida. 
+Pero en ciertas ocasiones debemos trabajar con datos para los que no contamos con una cantidad o etiqueta. En estos casos, deberemos entrenar a nuestros algoritmos de aprendizaje automático **sin supervisión**, que nos permitirán obtener información, sin conocer previamente cuál será la salida. 
 
 
 > 🤔 ¿Aprender sin supervisión? ¿Cómo es eso posible? ¿Se te ocurre algún aspecto que un algoritmo de aprendizaje automático podría identificar sin supervisión?
