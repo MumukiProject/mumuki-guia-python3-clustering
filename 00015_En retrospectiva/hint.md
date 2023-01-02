@@ -1,4 +1,4 @@
-Para hacer un `pairplot` son seaborn podés utilizar el siguiente código: 
+Para hacer un `pointplot` son seaborn podés utilizar el siguiente código: 
 
 ```python
 sns.pointplot(data = inercias, x = "k", y = "inercia")
