@@ -9,7 +9,7 @@ for indice_1 in range(0, len(columnas)):
 
     print(columnas[indice_1], "vs", columnas[indice_2])
     sns.scatterplot(
-        x = iris_escalado[:,indice_1], # esta sintaxis nos permite acceder a las columna enésima
+        x = iris_escalado[:,indice_1], # esta sintaxis nos permite acceder a la columna enésima
         y = iris_escalado[:,indice_2], # de una matriz (array)
         hue = kmeans.labels_, 
         palette = colores, 
