@@ -1,6 +1,6 @@
 Otra propiedad que nos puede interesar de una agrupación es que todos los puntos de un grupo estén bien _juntitos_ :hugging:  pero a la vez bien separados del resto de los puntos en otros grupos :dash:. 
 
-:bust_in_silhouette: Esta idea se puede encontrar en el coeficiente de _silhouette_ (silueta, en inglés), que para miembro del cluster nos dice, si está cerca de su cluster y lejos del resto (coeficiente cercano a `1`) o si está lejos de su cluster y cerca del resto (coeficiente cercano a `-1`). :person_gesturing_no: Esto nos da dos heurísticas para _rechazar_ (pero no así elegir) valores concretos de `k`: 
+Esta idea se puede encontrar en el coeficiente de _silhouette_ (:bust_in_silhouette silueta, en inglés), que para miembro del cluster nos dice, si está cerca de su cluster y lejos del resto (coeficiente cercano a `1`) o si está lejos de su cluster y cerca del resto (coeficiente cercano a `-1`). :person_gesturing_no: Esto nos da dos heurísticas para _rechazar_ (pero no así elegir) valores concretos de `k`: 
 
   1. Si hay clusters donde todos los coeficientes de silhouette de sus miembros están por debajo del valor promedio general, o bien
   2. si hay clusters donde muchos de sus miembros tiene un valor inferior a cero (que indica un miembro mal clasificado).
