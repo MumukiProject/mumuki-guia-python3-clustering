@@ -17,7 +17,7 @@ silhouette_score(iris_escalado, kmeans.labels_)
 silhouette_samples(iris_escalado, kmeans.labels_)
 ```
 
-No obstante, resulta mucho más cómodo realizar este análisi gráficamente. Para ello vamos a instalar una nueva biblioteca llamada `yellowbrick`...
+No obstante, resulta mucho más cómodo realizar este análisis gráficamente. Para ello vamos a instalar una nueva biblioteca llamada `yellowbrick`...
 
 ```python
 !pip install yellowbrick
