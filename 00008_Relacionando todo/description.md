@@ -18,4 +18,4 @@ Pero otra gran herramienta para descubrir correlaciones entre variables es usar 
 sns.pairplot(iris)
 ```
 
-> Realizá en tu cuaderno la matriz de correlación y el mapa de calor sobre la tabla `iris` y  contrastá 📈 los resultados contra su `pariplot` correspondiente. ¿Existe alguna correlación entre algunas de las variables?
+> Realizá en tu cuaderno la matriz de correlación y el mapa de calor sobre la tabla `iris` y  contrastá 📈 los resultados contra su `pairplot` correspondiente. ¿Existe alguna correlación entre algunas de las variables?
