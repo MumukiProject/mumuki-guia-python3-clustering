@@ -13,7 +13,7 @@ Bueno, no es necesario llegar a tal extremo, que además nos llevaría al absurd
 
 ...hallaremos a nuestro `k` óptimo en el "codo" que se forma (en el gráfico de ejemplo se encuentra en `k = 4`).
 
-> Veamos si se va entendiendo: ejecutá nuevamente al algoritmo `KMeans` sobre nuestro `iris_escalado`, pero probando con (todos los) valores de `k` desde `2` a `10` y guardá sus valores de inercia en un `DataFrame`. Luego realizá un gráfico de líneas de `k` vs `inercia`.
+> Veamos si se va entendiendo: ejecutá nuevamente al algoritmo `KMeans` sobre nuestro `iris_escalado`, pero probando con (todos los) valores de `k` desde `2` a `9` y guardá sus valores de inercia en un `DataFrame`. Luego realizá un gráfico de líneas de `k` vs `inercia`.
 >
 > ¿Cuál es el mejor valor de `k` según este criterio?
 >
