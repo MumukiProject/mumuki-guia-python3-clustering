@@ -11,13 +11,14 @@ from scipy.spatial.distance import cdist
 
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import silhouette_samples, silhouette_score 
 
 plt.rcParams['image.cmap'] = "bwr"
 plt.rcParams['savefig.bbox'] = "tight"
 plt.style.use('ggplot')
 ``` 
 
-👀 En esta ocasión, si mirás atentamente y lo comparás con nuestros `imports` de regresión lineal, notarás que estamos importando otros módulos de `scikit-learn`: `sklearn.cluster` y `sklearn.preprocessing`. Como veremos más adelante, ¡esto es intencional!  :wink: 
+👀 En esta ocasión, si mirás atentamente y lo comparás con nuestros `imports` de regresión lineal, notarás que estamos importando otros módulos como `sklearn.cluster` y `sklearn.preprocessing`. Como veremos más adelante, ¡esto es intencional!  :wink: 
 
 Por otro lado, nuevamente el lote de datos que nos interesa viene con `scikit-learn` , y podemos cargarlo de la siguiente forma:
 
