@@ -5,8 +5,8 @@ K-means (o _k-medias_, en español) se trata de un método que agrupa las observ
 👣 Este método repite una serie de pasos...
 
  1. Definir el número K de clusters que se quieren crear;
- 2. Seleccionar de forma aleatoria k observaciones del lote de datos como _centroides_ iniciales, esto es los, datos a los cuáles se calcula la distancia para delimitar el grupo de menor varianza interna;
- 3. Calcular las distancia de todos los datos al centroide, para definir a cuál se encuentra más próximo;
+ 2. Seleccionar de forma aleatoria k observaciones del lote de datos como _centroides_ iniciales, esto es, los datos a los cuales se calcula la distancia para delimitar el grupo de menor varianza interna;
+ 3. Calcular la distancia de todos los datos al centroide, para definir a cuál se encuentra más próximo;
  4. Para cada uno de los K clusters recalcular su centroide, la posición del centroide se actualiza tomando como nuevo centroide la posición del promedio de las observaciones pertenecientes a dicho grupo;
  5. Repetir los pasos 3 y 4 hasta que los centroides no se mueven, o se mueven por debajo de una distancia umbral en cada paso, o se alcancen el número de iteraciones definidas de antemano.
 
