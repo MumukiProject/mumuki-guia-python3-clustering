@@ -1,4 +1,4 @@
-Cuando buscamos hacer predicciones, normalmente trabajamos con algoritmos **aprendizaje supervisado**: métodos que a partir de datos etiquetados, nos permiten reconstruir las relaciones entre las variables y las etiquetas. Dentro de este conjunto de algoritmos, podemos identificar dos grandes subtipos: **regresión** y **clasificación**. 
+Cuando buscamos hacer predicciones, normalmente trabajamos con algoritmos de **aprendizaje supervisado**: métodos que, a partir de datos etiquetados, nos permiten reconstruir las relaciones entre las variables y las etiquetas. Dentro de este conjunto de algoritmos, podemos identificar dos grandes subtipos: **regresión** y **clasificación**. 
 
 |                  |       Regresión         |     Clasificación           |
 |:-----------------|-------------------------|-----------------------------|
