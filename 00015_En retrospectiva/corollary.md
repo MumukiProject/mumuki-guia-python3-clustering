@@ -1,4 +1,4 @@
-¡Muy bien! Éste no era tan obvio, ¿verdad? ¿El `k` óptimo es 3 o 5? :person_juggling:
+¡Muy bien! Éste no era tan obvio, ¿verdad? ¿El `k` óptimo es 3 ó 5? :person_juggling:
 
 Probablemente te quedó algo como esto (la marca sobre `k = 3` es nuestra):
 
