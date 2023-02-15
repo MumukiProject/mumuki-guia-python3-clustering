@@ -1,7 +1,7 @@
 Para evaluar cuán bien funcionó nuestro agrupamiento y saber si la cantidad de grupos es adecuada, podemos calcular cuán compactos son los grupos obtenidos. Partiendo de la base que un agrupamiento es mejor si todos los elementos del grupo están lo más cerca posible de su centro, podemos sumar las distancias de cada punto a su respectivo centro y usar eso como medida. A este valor se lo denomina _inercia_ y puede obtenerse haciendo:
 
 ```python
-ム kmeans.inertia_
+ムkmeans.inertia_
 139.82049635974974
 ```
 

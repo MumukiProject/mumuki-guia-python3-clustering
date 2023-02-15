@@ -23,7 +23,7 @@ Como esta definición es tan útil, la biblioteca `scipy` ya cuenta con ella (en
 # cdist devuelve una matriz de comparaciones entre los puntos del primer argumento
 # y los del segundo argumento, pero en este caso sólo nos interesa su primer y único valor
 # de ahí que usemos [0][0]
-ム cdist([(3, 4)], [(4, 5)], 'euclidean')[0][0]
+ムcdist([(3, 4)], [(4, 5)], 'euclidean')[0][0]
 1.4142135623730951 # porque 1.4142135623730951² = (3 - 4)² + (4 - 5)²
 ```
 
